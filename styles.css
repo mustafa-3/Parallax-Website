@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif; 
+  opacity: .7;
+  line-height: 28.8px;
+}
+
+.header-text {
+  max-width: max-content;
+  margin: auto;
+}
+
+.section {
+  padding: 3rem 4rem;
+}
+
+.section-white {
+  background-color: white;
+}
+
+.section-gray, .header-text  {
+  background-color: #111;
+  color: white;
+}
+
+.section-title, .logo, .header-text, .section {
+  text-align: center;
+}
+
+.logo {
+  background: url(./img/bg2.jpg);
+}
+
+.logo-img {
+  width: 300px;
+}
+
+.header-first {
+ background-image: url(./img/bg.jpg);
+}
+
+.header-third {
+ background-image: url(./img/bg3.jpg);
+}
+
+.header-fourth {
+ background-image: url(./img/bg4.jpg);
+}
+
+.header-fifth {
+ background-image: url(./img/bg1.jpg);
+}
+
+.header-first, .header-second, .header-third, .header-fourth, .header-fifth, .logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.header, .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-text {
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 32px 0 32px 0;
+  letter-spacing: 8px;
+  outline: 0.5rem inset purple ;
+  outline-offset: 16px;
+  font-weight: 400;
+}
